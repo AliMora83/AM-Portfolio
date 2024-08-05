@@ -5,6 +5,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Lottie from "react-lottie";
 import animationData from "@/data/codespace.json";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   const defaultOptions = {
@@ -15,6 +16,16 @@ const Hero = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const [text, count] = useTypewriter({
+    words: [
+      `🏆 I am Ali Mora, welcome 🏆`,
+      "I-Program-the-Future.tsx",
+      "<And-Loves-Traveling />",
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  });
 
   return (
     <div className="pb-20 pt-36">
@@ -51,17 +62,19 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <Lottie options={defaultOptions} height={400} width={400} />
+          <Lottie options={defaultOptions} height={300} width={300} />
 
-          <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
+          <div className="my-14">
+            <h1 className="text-xl lg:text-6xl font-semibold px-10">
+              <span className="mr-3 text-white">{text}</span>
+              <Cursor cursorColor="#5E2BB4" />
+            </h1>
+          </div>
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl text-secondary">
-            Hi! I&apos;m Ai Mora, a Next.js Developer based in South Africa
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg text-secondary">
+            Software Developer from South Africa
           </p>
 
           <a href="#about">

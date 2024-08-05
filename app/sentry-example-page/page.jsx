@@ -7,8 +7,8 @@ export default function Page() {
   return (
     <div>
       <Head>
-        <title>Sentry Onboarding</title>
-        <meta name="description" content="Test Sentry for your Next.js app!" />
+        <title>Ali Mora Portfolio</title>
+        <meta name="description" content="Software Development Portfolio 2024" />
       </Head>
 
       <main

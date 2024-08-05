@@ -8,18 +8,18 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Behance, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/devme-2.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
+    title: "Current Clientele Locations",
+    description: "Cape Town, JHB, BFN, Burindi, Uganda and USA!",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Technologies",
+    description: "I'm constantly learning these",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scooby-doo",
+    title: "Nama Language Course",
+    description: "Currently building ...",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Behance",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    img: "devme-2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://www.behance.net/gallery/173247639/Develop-Me",
   },
   {
     id: 2,
@@ -145,61 +145,91 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "IDBS",
+    img: "/c-idbs.png",
+    nameImg: "/c-idbs.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "EventServe",
+    img: "/c-eventServe.png",
+    nameImg: "/c-eventServe.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "BMIL",
+    img: "/c-bmil.png",
+    nameImg: "/c-bmil.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Micassa",
+    img: "/c-micassa.png",
+    nameImg: "/c-micassa.png",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "UdyNet",
+    img: "/c-udynet.png",
+    nameImg: "/c-udynet.png",
+  },
+  {
+    id: 6,
+    name: "ycl",
+    img: "/c-ycl.png",
+    nameImg: "/c-ycl.png",
+  },
+  {
+    id: 7,
+    name: "Electrod",
+    img: "/c-electrod.png",
+    nameImg: "/c-electrod.png",
+  },
+  {
+    id: 8,
+    name: "Rachips",
+    img: "/c-rachips.png",
+    nameImg: "/c-rachips.png",
+  },
+  {
+    id: 9,
+    name: "kk-npo",
+    img: "/c-kk-npo.png",
+    nameImg: "/c-kk-npo.png",
+  },
+  {
+    id: 10,
+    name: "Botsdh",
+    img: "/c-botsdh.png",
+    nameImg: "/c-botsdh.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Brand Development",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Software Development",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
+    title: "Business Consultantion",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Project Management",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -213,7 +243,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/x.png",
   },
   {
     id: 3,
