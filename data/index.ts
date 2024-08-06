@@ -107,38 +107,66 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "James Babonda",
-    title: "Director of AlphaStream Technologies",
-    source: "/profile.svg",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Dr. Albert Mubako",
+    title: "IDBS Co-Director",
+    source: "/albert.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael X",
-    title: "Director of AlphaStream Technologies",
-    source: "/profile.svg",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Dr. Jeffrey Ray",
+    title: "IDBS/BMIL Co-Director",
+    source: "/ray.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael O",
-    title: "Director of AlphaStream Technologies",
-    source: "/profile.svg",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Dr. Lambert Ciza",
+    title: "BMIL Co-Director",
+    source: "/ciza.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    source: "/profile.svg",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Larry Smith",
+    title: "UdyNet Director",
+    source: "/larry.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
     name: "Adeobajesu Aboluwade",
-    title: "Social media and brand positioning",
-    source: "/profile.svg",
+    title: "Social Media Manager",
+    source: "/adeoba.svg",
+  },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Phathu Rachipeti",
+    title: "Rachips Director",
+    source: "/phathu.svg",
+  },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Yassah Matovu",
+    title: "Micassa Suites Director",
+    source: "/yassah.svg",
+  },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Charles Babumba",
+    title: "Electrod Director",
+    source: "/electrod.svg",
+  },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Romeo Lekoba",
+    title: "Event Serve Director",
+    source: "/romeo.svg",
   },
 ];
 

@@ -62,18 +62,18 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <Lottie options={defaultOptions} height={300} width={300} />
+      <div className="flex justify-center relative z-10 -mt-10">
+        <div className="md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <Lottie options={defaultOptions} height={280} width={280} />
 
-          <div className="my-14">
-            <h1 className="text-xl lg:text-6xl font-semibold px-10">
+          <div className="md:my-12 my-6">
+            <h1 className="text-xl lg:text-6xl font-semibold md:px-10">
               <span className="mr-3 text-white">{text}</span>
               <Cursor cursorColor="#5E2BB4" />
             </h1>
           </div>
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg text-secondary">
+          <p className="text-center md:tracking-wider mb-4 text-xs md:text-lg text-secondary">
             Software Developer from South Africa
           </p>
 
