@@ -20,7 +20,7 @@ const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
       `🏆 I am Ali Mora, welcome 🏆`,
-      "I-Program-the-Future.tsx",
+      "Consult_Design+Code.tsx",
       "<And-Loves-Traveling />",
     ],
     loop: true,
@@ -73,7 +73,7 @@ const Hero = () => {
             </h1>
           </div>
 
-          <p className="text-center md:tracking-wider mb-4 text-xs md:text-lg text-secondary">
+          <p className="text-center md:tracking-wider mb-4 text-xs md:text-lg text-slate-400">
             Software Developer from South Africa
           </p>
 

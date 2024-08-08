@@ -72,7 +72,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Behance",
+    title: "DevConnect",
+    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    img: "w-devcon.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://devconnect-v2.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "DevelopMe",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "devme-2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -80,27 +88,43 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "BMIL",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    img: "/w-bmil.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://bmil.org/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "IDBS",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/w-idbs.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://institutedbs.com/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Electrod",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "/w-electrod.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://electrod.africa/",
+  },
+  {
+    id: 5,
+    title: "UdyNet",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/w-sifinet.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://sifinet.co.za/",
+  },
+  {
+    id: 6,
+    title: "Micassa Suites",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/w-micassa.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://micassasuites.com/",
   },
 ];
 
@@ -268,13 +292,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/alimora83",
   },
   {
     id: 2,
     img: "/x.png",
+    link: "https://twitter.com/swarts_d",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/daurius-ali-swarts/",
+  },
+  {
+    id: 4,
+    img: "/whatsapp.png",
+    link: "https://api.whatsapp.com/send?phone=789658725",
   },
 ];
