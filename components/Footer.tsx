@@ -18,14 +18,14 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Ready to take <span className="text-purple">your digital
+          presence</span> to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          achieve your goals
         </p>
-        <a href="mailto:ali@openmindi.co.za">
+        <a href="mailto:ali@openmindi.co.za" target="_blank">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -34,7 +34,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="text-xs font-light text-slate-400">
+        <p className="text-xs font-light text-slate-400 mb-4 md:mb-0">
           Copyright © 2024 | Ali Mora | Software Developer
         </p>
         <div className="flex items-center md:gap-3 gap-6">

@@ -8,11 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Behance, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    title: "Team project on Behance",
+    description: "Platform was developed over 6 weeks",
+    className:
+      "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
+    titleClassName: "justify-start",
     img: "/devme-2.png",
     spareImg: "",
   },
@@ -260,31 +261,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Brand Development",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Business Consultation",
+    desc: "Providing strategic insights and tailored solutions to optimize operations, drive growth, and boost sales performance.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/i-business.svg",
   },
   {
     id: 2,
-    title: "Software Development",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Brand Development",
+    desc: "Crafting compelling brand identities, ensuring consistency, and elevating market presence for lasting audience engagement.",
+    className: "md:col-span-2",
+    thumbnail: "/i-design.svg",
   },
   {
     id: 3,
-    title: "Business Consultantion",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Software Development",
+    desc: "Designing and building scalable, efficient software solutions tailored to meet specific client needs and industry standards.",
+    className: "md:col-span-2",
+    thumbnail: "/i-code.svg",
   },
   {
     id: 4,
     title: "Project Management",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Leading projects from conception to completion, ensuring timely delivery, budget adherence, and stakeholder satisfaction.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/i-manage.svg",
   },
 ];
 
@@ -297,7 +298,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/x.png",
-    link: "https://twitter.com/swarts_d",
+    link: "https://x.com/swarts_d",
   },
   {
     id: 3,
