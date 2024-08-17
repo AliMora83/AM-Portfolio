@@ -5,6 +5,11 @@ import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
+type Link = {
+  href: string;
+  text: string;
+};
+
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
@@ -16,7 +21,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    source: link;
+    source: Link;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";

@@ -83,3 +83,12 @@
     @apply font-bold text-4xl md:text-5xl text-center text-white;
   }
 }
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1000; /* Ensure it's higher than other elements */
+}
+
