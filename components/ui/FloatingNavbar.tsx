@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import {
   motion,
   AnimatePresence,
@@ -19,28 +19,24 @@ export const FloatingNav = ({
   }[];
   className?: string;
 }) => {
-  const { scrollYProgress } = useScroll();
+  const { scrollY } = useScroll();
   const [visible, setVisible] = useState(true);
-  const lastScrollY = useRef<number>(0); // Store the last scroll position
+  const lastScrollY = useRef<number>(0);
 
-  useMotionValueEvent(scrollYProgress, "change", (current) => {
-    if (typeof current === "number") {
-      let direction = current - lastScrollY.current;
-
-      if (current < 0.1) {
-        setVisible(true); // Ensure the navbar is visible near the top
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY < 100) {
+        setVisible(true);
       } else {
-        if (direction < 0) {
-          setVisible(true); // Show the navbar when scrolling up
-        } else if (direction > 0) {
-          setVisible(false); // Hide the navbar when scrolling down
-        }
+        setVisible(currentScrollY < lastScrollY.current);
       }
+      lastScrollY.current = currentScrollY;
+    };
 
-      // Update lastScrollY to the current scroll position
-      lastScrollY.current = current;
-    }
-  });
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <AnimatePresence mode="wait">
@@ -57,7 +53,7 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit md:min-w-[70vw] lg:min-w-fit relative z-[5000] top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-center space-x-4",
+          "flex max-w-fit fixed z-[5000] top-10 left-0 right-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-center space-x-4",
           className
         )}
         style={{
@@ -76,7 +72,7 @@ export const FloatingNav = ({
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className=" text-sm !cursor-pointer">{navItem.name}</span>
+            <span className="text-sm !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
       </motion.div>

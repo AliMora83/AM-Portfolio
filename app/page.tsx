@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { navItems } from "@/data";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
@@ -15,6 +15,7 @@ import { FaSortUp } from "react-icons/fa6";
 
 const Home = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
+  const heroRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,10 +38,12 @@ const Home = () => {
   };
 
   return (
-    <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+    <main className="relative bg-black flex justify-center items-center flex-col overflow-visible mx-auto sm:px-10 px-5">
+      <FloatingNav navItems={navItems} />
       <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
-        <Hero />
+        <div ref={heroRef}>
+          <Hero />
+        </div>
         <Grid />
         <RecentProjects />
         <Clients />
@@ -52,7 +55,7 @@ const Home = () => {
       {showScrollButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 w-28 p-1 shadow-lg flex items-center justify-center"
+          className="fixed bottom-6 right-6 w-28 p-1 shadow-lg flex items-center justify-center z-50"
         >
           <MagicButton title="Top" icon={<FaSortUp />} position="right" />
         </button>

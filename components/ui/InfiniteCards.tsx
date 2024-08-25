@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
+
 type Link = {
   href: string;
   text: string;
@@ -21,7 +22,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    source: Link;
+    source: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -33,7 +34,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  }, );
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
