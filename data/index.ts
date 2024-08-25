@@ -1,4 +1,8 @@
 import CizaSvg from "../public/ciza.svg";
+import AlbertSvg from "../public/albert.svg";
+import RaySvg from "../public/ray.svg";
+import LarrySvg from "../public/larry.svg";
+import AdeobaSvg from "../public/adeoba.svg";
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -132,20 +136,20 @@ export const projects = [
 ];
 
 export const testimonials = [
-  // {
-  //   quote:
-  //     "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
-  //   name: "Dr. Albert Mubako",
-  //   title: "IDBS Co-Director",
-  //   source: "/albert.svg",
-  // },
-  // {
-  //   quote:
-  //     "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
-  //   name: "Dr. Jeffrey Ray",
-  //   title: "IDBS/BMIL Co-Director",
-  //   source: "/ray.svg",
-  // },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Dr. Albert Mubako",
+    title: "IDBS Co-Director",
+    source: AlbertSvg,
+  },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Dr. Jeffrey Ray",
+    title: "IDBS/BMIL Co-Director",
+    source: RaySvg,
+  },
   {
     quote:
       "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
@@ -153,20 +157,20 @@ export const testimonials = [
     title: "BMIL Co-Director",
     source: CizaSvg,
   },
-  // {
-  //   quote:
-  //     "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
-  //   name: "Larry Smith",
-  //   title: "UdyNet Director",
-  //   source: "/larry.svg",
-  // },
-  // {
-  //   quote:
-  //     "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
-  //   name: "Adeobajesu Aboluwade",
-  //   title: "Social Media Manager",
-  //   source: "/adeoba.svg",
-  // },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Larry Smith",
+    title: "UdyNet Director",
+    source: LarrySvg,
+  },
+  {
+    quote:
+      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
+    name: "Adeobajesu Aboluwade",
+    title: "Social Media Manager",
+    source: AdeobaSvg,
+  },
   // {
   //   quote:
   //     "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
