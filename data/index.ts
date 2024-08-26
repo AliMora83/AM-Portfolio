@@ -7,7 +7,7 @@ import AdeobaSvg from "../public/adeoba.svg";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Reviews", link: "#reviews" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -80,7 +80,7 @@ export const projects = [
   {
     id: 1,
     title: "DevConnect",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "With this group project, we aim to connect junior developers with low-paid real-world projects.",
     img: "w-devcon.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://devconnect-v2.netlify.app/",
@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 2,
     title: "DevelopMe",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Developers can find exxperienced mentors who can offer valueble insight and advice.",
     img: "devme-2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://www.behance.net/gallery/173247639/Develop-Me",
@@ -96,7 +96,7 @@ export const projects = [
   {
     id: 2,
     title: "BMIL",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "An evolving organizational ecosystem that harnesses the collective potential of its members.",
     img: "/w-bmil.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://bmil.org/",
@@ -104,7 +104,7 @@ export const projects = [
   {
     id: 3,
     title: "IDBS",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "IDBS is a leading consulting firm specializing in digital transformation acceleration services.",
     img: "/w-idbs.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://institutedbs.com/",
@@ -112,7 +112,7 @@ export const projects = [
   {
     id: 4,
     title: "Electrod",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "We offer solutions for power generation, renewable energy, commercial lighting, water treatment amongst others.",
     img: "/w-electrod.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://electrod.africa/",
@@ -120,7 +120,7 @@ export const projects = [
   {
     id: 5,
     title: "UdyNet",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "We Plan & Build Telecommunications Networks, Connecting the Unconnected",
     img: "/w-sifinet.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://sifinet.co.za/",
@@ -128,14 +128,14 @@ export const projects = [
   {
     id: 6,
     title: "Micassa Suites",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Located in the heart of Kampala, Micassa Suites offers studio and one bedroom apartments that feel like home away from home",
     img: "/w-micassa.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://micassasuites.com/",
   },
 ];
 
-export const testimonials = [
+export const reviews = [
   {
     quote:
       "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",

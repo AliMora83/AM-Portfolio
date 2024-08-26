@@ -92,3 +92,15 @@
   z-index: 1000; /* Ensure it's higher than other elements */
 }
 
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(var(--animation-direction) * 100%));
+  }
+}
+
+.animate-slide {
+  animation: slide var(--animation-duration) linear infinite;
+}
